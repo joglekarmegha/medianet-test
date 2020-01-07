@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="wrap">
+
+    <div class="wrap__list">
+      <div class="form-add-email">
+        <label for="" class="label">Email Address</label>
+        <input class="add-email" type="email" id="add-input-value" value="vijay@gmail.com">
+        <button class="btn btn--blue btn--lg" id="addEmail">Add email</button>
+      </div>
+    </div>
+    
+    <div class="wrap__list">
+      <form action="" class="form-search">
+        <span class="search-text">search</span>
+        <input class="search-email" type="text">
+        <button class="btn btn--blue btn-search" type="button">search</button>
+      </form>
+
+      <label for="show-checkbox" class="show-enabled">
+        <input type="checkbox" id="show-checkbox" onclick="checkboxState()">
+        show enabled
+      </label>
+  
+      <div class="email-list" id="a">
+      </div>
+      
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
